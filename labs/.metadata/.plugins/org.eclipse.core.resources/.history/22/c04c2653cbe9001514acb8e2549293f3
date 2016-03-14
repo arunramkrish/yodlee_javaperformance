@@ -1,0 +1,5 @@
+package com.yodlee.references;
+
+public class StrongReference {
+
+}

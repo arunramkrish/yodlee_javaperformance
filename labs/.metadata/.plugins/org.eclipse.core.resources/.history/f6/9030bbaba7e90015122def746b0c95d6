@@ -1,0 +1,29 @@
+package com.yodlee.refactoring;
+
+public class ExtractMethod {
+	void printOwing() {
+		  printBanner();
+
+		  String name = "something";
+		  
+		//print details
+		  System.out.println("name: " + name );
+		  System.out.println("amount: " + getOutstanding());
+		}
+	
+	private String getOutstanding() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private void printBanner() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.yodlee.references;
+
+public class StrongReference {
+	class Animal {
+		private char[] memoryChunk = new char[1024];
+		private String name = "";
+		public Animal(String name) {
+			this.name = name;
+		}
+		
+	    protected void finalize() {
+	        System.out.println("Rest in Peace!" + name);
+	    }
+	}
+}

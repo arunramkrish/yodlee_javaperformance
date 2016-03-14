@@ -1,0 +1,13 @@
+package com.yodlee;
+
+import java.util.Date;
+
+public class AmountInvoicedParameter {
+	public Date startDate;
+	public Date endDate;
+
+	public AmountInvoicedParameter(Date startDate, Date endDate) {
+		this.startDate = startDate;
+		this.endDate = endDate;
+	}
+}

@@ -1,0 +1,10 @@
+1457934205544	Extract method 'printDetails'
+1457934540754	Extract method 'calculateBasePrice'
+1457935047544	Introduce Parameter Object
+1457935836779	Extract Class...
+1457935943940	Extract superclass 'ExtractClass'
+1457936175671	Move compilation unit
+1457936720084	Extract interface 'InvoiceCalculator'
+1457937624596	Extract superclass 'SuperExtractMethod'
+1457938259546	Extract method 'getName'
+1457938311874	Change method 'printDetails'

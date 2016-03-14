@@ -1,0 +1,32 @@
+package com.yodlee.refactoring;
+
+import java.util.Date;
+
+import com.yodlee.AmountInvoicedParameter;
+
+public class ExtractClass {
+
+	private ParameterObject data;
+
+	public ExtractClass() {
+		super();
+	}
+
+	/**
+	 * @deprecated Use {@link #amountInvoiced(AmountInvoicedParameter)} instead
+	 */
+	private void amountInvoiced(Date startDate, Date endDate) {
+		amountInvoiced(new AmountInvoicedParameter(startDate, endDate));
+	}
+
+	private void amountInvoiced(AmountInvoicedParameter parameterObject) {
+		
+		
+	}
+
+	protected double calculateBasePrice() {
+		double basePrice = data.quantity * data.itemPrice;
+		return basePrice;
+	}
+
+}

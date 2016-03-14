@@ -1,0 +1,44 @@
+package com.yodlee.refactoring;
+
+public class ExtractMethod extends ExtractClass {
+	ParameterObject data = new ParameterObject();
+
+	void printOwing() {
+		printBanner();
+
+		String name = "something";
+
+		// print details
+		printDetails(name);
+	}
+
+	public double calculateTotal() {
+		double basePrice = calculateBasePrice();
+		if (basePrice > 1000) {
+			return basePrice * 0.95;
+		} else {
+			return basePrice * 0.98;
+		}
+	}
+
+	private void printDetails(String name) {
+		System.out.println("name: " + name);
+		System.out.println("amount: " + getOutstanding());
+	}
+
+	private String getOutstanding() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private void printBanner() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

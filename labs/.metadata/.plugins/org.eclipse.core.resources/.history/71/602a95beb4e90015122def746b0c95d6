@@ -1,0 +1,44 @@
+package com.yodlee.refactoring;
+
+public class Bird {
+
+	private static final int EUROPEAN = 0;
+	private static final int AFRICAN = 0;
+	private static final int NORWEGIAN_BLUE = 0;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	private int type;
+	private int numberOfCoconuts;
+	private Object voltage;
+
+	double getSpeed() {
+		switch (type) {
+		case EUROPEAN:
+			return getBaseSpeed();
+		case AFRICAN:
+			return getBaseSpeed() - getLoadFactor() * numberOfCoconuts;
+		case NORWEGIAN_BLUE:
+			return (isNailed) ? 0 : getBaseSpeed(voltage);
+		}
+		throw new RuntimeException("Should be unreachable");
+	}
+
+	private int getLoadFactor() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private int getBaseSpeed(Object voltage2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private double getBaseSpeed() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
