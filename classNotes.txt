@@ -1,0 +1,27 @@
+1. Went thro refactoring in the context of code smells and running the same code in eclipse - https://sourcemaking.com/refactoring/smells
+
+2. Smell Vs Refactoring cheat sheet - refer to presentations/Smell_vs_Refactoring.pdf
+
+3. Catalog of all refactoring from Martin Fowler
+http://refactoring.com/catalog/
+
+4. Object Oriented Design Principles 
+http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+
+5. Java Memory management, types of garbage collectors, jvm configurations, collecting thread dump, heap dumps, different type of object references. Refer to presentations\GC_*.pdf
+
+6. VisualVM overview and their screen shot
+https://visualvm.java.net/
+
+7. Set up Memory analyzer tool to compare heap dumps
+http://www.eclipse.org/mat/
+http://wiki.eclipse.org/MemoryAnalyzer
+http://www.vogella.com/tutorials/EclipseMemoryAnalyzer/article.html
+
+Day 2
+List of Java VMs
+https://en.wikipedia.org/wiki/List_of_Java_virtual_machines
+
+http://javapapers.com/java/java-8-features/
+http://www.javaworld.com/article/2078623/core-java/jvm-performance-optimization-part-1-a-jvm-technology-primer.html
+	
